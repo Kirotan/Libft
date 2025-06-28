@@ -13,13 +13,15 @@ The goal is to build a clean, **dependency‑free** static library (`libft.a`) t
 
 ## 📑 Table of Contents
 
-1. [Features](#-features)
-2. [Directory Structure](#-directory-structure)
-3. [Getting Started](#-getting-started)
-4. [Usage](#-usage)
-5. [Project Context](#-project-context)
+1. [Features](#features)
+2. [Directory Structure](#directory-structure)
+3. [Getting Started](#getting-started)
+4. [Usage](#usage)
+5. [Project Context](#project-context)
 
 ---
+
+<a id="features"></a>
 
 ## ⚙️ Features
 
@@ -33,18 +35,22 @@ All functions respect the canonical **42** error‑handling and memory‑safety 
 
 ---
 
+<a id="directory-structure"></a>
+
 ## 🗂️ Directory Structure
 
 ```text
 libft/
 ├── inc/            # Headers (libft.h)
 ├── srcs/           # Function implementations
-│   ├── Functions
+│   ├── ...         # (see Features table)
 ├── Makefile
 └── README.md
 ```
 
 ---
+
+<a id="getting-started"></a>
 
 ## 🚀 Getting Started
 
@@ -76,6 +82,8 @@ make re             # full rebuild
 
 ---
 
+<a id="usage"></a>
+
 ## 📚 Usage
 
 ```c
@@ -102,9 +110,10 @@ gcc main.c -L. -lft -o demo
 
 ---
 
+<a id="project-context"></a>
 
 ## 🏛️ Project Context
 
-This project was developed at **École 42** as one of the first milestones in the common core..
+This project was developed at **École 42** as one of the first milestones in the common core.
 
 ---
