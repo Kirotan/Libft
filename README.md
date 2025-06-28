@@ -17,9 +17,7 @@ The goal is to build a clean, **dependency‑free** static library (`libft.a`) t
 2. [Directory Structure](#-directory-structure)
 3. [Getting Started](#-getting-started)
 4. [Usage](#-usage)
-5. [Tests](#-tests)
-6. [Project Context](#-project-context)
-7. [License](#-license)
+5. [Project Context](#-project-context)
 
 ---
 
@@ -39,14 +37,11 @@ All functions respect the canonical **42** error‑handling and memory‑safety 
 
 ```text
 libft/
-├── inc/            # Public headers (libft.h)
+├── inc/            # Headers (libft.h)
 ├── srcs/           # Function implementations
-│   ├── part1/
-│   ├── part2/
-│   └── bonus/
-├── tests/          # Unit tests (criterion)
+│   ├── Functions
 ├── Makefile
-└── README.md       # You are here
+└── README.md
 ```
 
 ---
@@ -107,23 +102,9 @@ gcc main.c -L. -lft -o demo
 
 ---
 
-## 🧪 Tests
-
-The `tests/` folder contains unit tests powered by **Criterion**.
-
-```bash
-make test           # build and run tests
-```
-
----
 
 ## 🏛️ Project Context
 
-This project was developed at **École 42** as one of the first milestones in the common core.
-It enforces rigorous coding standards (`norminette`), memory‑safety, and clean API design.
+This project was developed at **École 42** as one of the first milestones in the common core..
 
 ---
-
-## 📄 License
-
-This project is released under the MIT License — see [`LICENSE`](LICENSE) for details.
